@@ -1,0 +1,17 @@
+* html {
+    padding: 0px;
+    margin:0px;
+}
+
+h1,h2,h3 {
+    color:#66BFBF;
+}
+
+hr {
+    border-style: none;
+    border-top-style:dotted ;
+    color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+}
