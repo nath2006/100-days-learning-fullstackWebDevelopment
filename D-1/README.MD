@@ -14,5 +14,5 @@ This is what I learned :
      -  HTML Forms
 
 ## This is a preview of the project I made, using the knowledge I learned today :
-![Preview-1](./preview-1.png")
-![Preview-1](./preview-2.png")
+![Preview-1](./preview-1.png)
+![Preview-2](./preview-2.png)
