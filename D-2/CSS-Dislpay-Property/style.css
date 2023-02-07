@@ -1,0 +1,22 @@
+.none {
+    background-color: aquamarine;
+    display: none;
+    width: 100px;
+}
+
+.inline {
+    background-color: aquamarine;
+    display: inline;
+    width: 100px;
+}
+
+.inline-block {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 100px;
+}
+
+.block {
+    background-color: aquamarine;
+    display: block;
+}
