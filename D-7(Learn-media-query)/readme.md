@@ -14,3 +14,4 @@ on desktop size :
 on mobile phone size :
 ![Preview-mobile](./preview-2.png) 
 
+### For detail documentation juts read on mozila org or m3school website....
