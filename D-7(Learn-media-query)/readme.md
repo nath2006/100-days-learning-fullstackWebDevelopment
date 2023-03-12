@@ -9,9 +9,9 @@ If the browser window is 600px or smaller, tthen the items from the div with cla
 
 ### Preview 
 on desktop size :
-![Preview-desktop](preview-1.png) 
+![Preview-desktop](preview-1.PNG) 
 
 on mobile phone size :
-![Preview-mobile](preview-2.png) 
+![Preview-mobile](preview-2.PNG) 
 
 ### For detail documentation juts read on mozila org or m3school website....
