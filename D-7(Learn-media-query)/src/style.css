@@ -1,0 +1,10 @@
+.contoh {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contoh {
+      display: none;
+    }
+  }
