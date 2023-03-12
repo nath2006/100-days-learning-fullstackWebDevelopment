@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.img {
+    width: 300px;
+    position: absolute;
+    left: 10px;
+    z-index: -1;
+}
+
+.text {
+    color: #fff;
+    position:absolute;
+    left: 10px;
+}
