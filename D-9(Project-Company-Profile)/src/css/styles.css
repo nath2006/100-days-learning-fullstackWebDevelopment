@@ -17,10 +17,21 @@ p {
   font-weight: 400;
 }
 
-/* container-fluid */
+/* container*/
 
 .container-fluid {
   padding: 7% 15%;
+}
+
+/* Section */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /*Nabar Section*/
@@ -58,8 +69,6 @@ p {
 
 /*Title*/
 #title {
-  background-color: #ff4c68;
-  color: #ffff;
   text-align: left;
 }
 
@@ -76,7 +85,6 @@ p {
 
 /*features*/
 #features {
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -97,7 +105,6 @@ p {
 /* testimonials */
 #testimonials {
   background-color: #ef8172;
-  color: #ffff;
 }
 
 .testimonial-heading {
@@ -140,17 +147,8 @@ p {
   padding: 3% 2%;
 }
 
-/*cta*/
-#cta {
-  background-color: #ff4c68;
-  color: #ffff;
-}
 
 /*footer*/
-#footer {
-  background-color: #fff;
-}
-
 .social-icon {
   margin: 20px 10px;
 }
