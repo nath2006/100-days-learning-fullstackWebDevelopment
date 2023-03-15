@@ -18,3 +18,9 @@
 ![ilustration](ilustration.png) 
 ## When should code be refactored?
 > For me, refactoring the code when we have finished the 'product' that we made, because it aims to familiarize and make it easier for us later when accessing our code.
+
+## For more documentation
+[techtarget.com](https://www.techtarget.com/searchapparchitecture/definition/refactoring#:~:text=Refactoring%20is%20the%20process%20of,altering%20the%20code's%20external%20behavior.)
+
+[geeksforgeeks.org](https://www.geeksforgeeks.org/7-code-refactoring-techniques-in-software-engineering/)
+
