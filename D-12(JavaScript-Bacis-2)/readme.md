@@ -28,11 +28,11 @@
 >|Pre-decrement       |--a         | Reduce a by 1 number and display the result             |   
 >|Post-decrement      |a--         | Display the value of a, then subtract a by 1 point      |  
 
-## Create and Calling Function on JS
+## Create and Callig Function on JS
 > ### Create on bacis syntax
 >[keyword **function**] [name of function] (parameter) {
 <br>
-> //to do
+>//to do
 <br>
 > }
 <br>
@@ -42,13 +42,11 @@
     return a+b;
  }
  ```
-<br>
 
-## Create and Calling Function on JS
 > ### Create on arrow function
 > **const** [name of function] (parameter) => {
 <br>
-> //to do
+>//to do
 <br>
 > }
 <br>
