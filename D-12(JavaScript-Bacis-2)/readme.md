@@ -42,7 +42,7 @@
     return a+b;
  }
  ```
- > ### Create on arrow function
+> ### Create on arrow function
 > **const** [name of function] (parameter) => {
 <br>
 >//to do
