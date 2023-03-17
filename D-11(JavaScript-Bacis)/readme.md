@@ -17,9 +17,9 @@
 >(keyword) (name) = (value)
 <br>
 > example :
-> ```
-> let name = "Jhon Deo";
-> ```
+```
+ let name = "Jhon Deo";
+ ```
 > using ``` const``` data cannot be changed
 <br>
 > using ``` let ``` data can be changed
