@@ -42,7 +42,8 @@
     return a+b;
  }
  ```
- 
+<br>
+
 ## Create and Calling Function on JS
 > ### Create on arrow function
 > **const** [name of function] (parameter) => {
