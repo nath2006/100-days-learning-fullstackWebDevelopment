@@ -4,8 +4,8 @@
 ### Preview if player 1 wins
 ![1-wins](1-win.png) 
 
-### Preview if player 1 wins
+### Preview if player 2 wins
 ![2-wins](2-win.png) 
 
-### Preview if player 1 wins
+### Preview if player draw
 ![Draw](draw.png) 
