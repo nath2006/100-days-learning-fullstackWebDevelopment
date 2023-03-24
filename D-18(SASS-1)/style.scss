@@ -1,0 +1,15 @@
+$primary: red;
+
+.article{
+    background-color: $primary;
+    &.title {
+        padding-top: 20px;
+    }
+    &.btn {
+        border-radius: 2px;
+        background-color: red;
+        &:hover {
+            background-color: aliceblue;
+        }
+    }
+}

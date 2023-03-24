@@ -1,0 +1,15 @@
+.article {
+  background-color: red;
+}
+.article.title {
+  padding-top: 20px;
+}
+.article.btn {
+  border-radius: 2px;
+  background-color: red;
+}
+.article.btn:hover {
+  background-color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */
