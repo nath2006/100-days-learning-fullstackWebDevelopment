@@ -1,4 +1,20 @@
-# SASSS
+# SASSS Install
+> ```
+> //using npm (node)
+> npm install -g sass
+> ```
+
+# SASS Compiling
+> ```
+>//syntax
+> sass source/stylesheets/index.scss build/stylesheets/index.css
+>
+>//Exampale
+> sass style.scss public/css/style.css
+>
+>//Compile directory SASS 
+> sass scss public/css/style.css
+> ```
 
 ### SCSS Variabel
 > ```
@@ -22,6 +38,7 @@
 >    
 >   /*local variabel*/
 >   $corner: 2px;
+>
 >   background-color: $primary;   
 >   border-radius: $corner;
 > }
@@ -82,4 +99,39 @@
 >    }
 >   }
 > 
+>```
+
+### SCSS Module
+>```
+>// _base.scss
+>$font-stack: Helvetica, sans-serif;
+>$primary-color: #333;
+>
+>body {
+>  font: 100% $font-stack;
+>  color: $primary-color;
+>}
+>```
+>
+>```
+>// styles.scss
+>@use 'base';
+>
+>.inverse {
+>  background-color: base.$primary-color;
+>  color: white;
+>}
+>```
+>
+>```
+> //css
+>body {
+>  font: 100% Helvetica, sans-serif;
+>  color: #333;
+>}
+>
+>.inverse {
+>  background-color: #333;
+>  color: white;
+>}
 >```
