@@ -39,3 +39,15 @@
 > const myArr = ["Fish","Cat",1, 20];
 > ```
 > array on js is a untyped array
+
+## Higher order function and callback function
+> ### Higer order function = a function that takes one or more functions as arguments, or returns a function as its result.
+>
+> ### Callback function = functions that become arguments or return values ​​of a Higher Order function.
+>```
+>//higher order function
+> document.addEvenListener("keypress", respondToKey(event));
+>
+>//callback function
+> const respondKey = (event) => console.log("key pressed");
+> ```
