@@ -1,0 +1,14 @@
+/*Pricing Section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing {
+    &-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    &-column {
+        padding: 3% 2%;
+    }
+}

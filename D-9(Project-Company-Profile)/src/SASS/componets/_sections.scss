@@ -1,0 +1,10 @@
+@use '../abstarct/color';
+/* Section */
+.colored-section {
+    background-color: color.$red-color;
+    color: color.$white-color;
+}
+
+.white-section {
+    background-color: color.$white-color;
+}

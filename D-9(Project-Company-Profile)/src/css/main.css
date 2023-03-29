@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap");
-
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -14,12 +13,11 @@ p {
   color: #8f8f8f;
 }
 
-/* Headings */
-
+/* Heading */
 .big-heading {
   font-family: "Montserrat";
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 900;
 }
 
 .section-heading {
@@ -27,14 +25,12 @@ p {
   line-height: 1.5;
 }
 
-/* Containers */
-
-.container-fluid{
+/* Container */
+.container-fluid {
   padding: 7% 15%;
 }
 
-/* Sections */
-
+/* Section */
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
@@ -44,8 +40,7 @@ p {
   background-color: #fff;
 }
 
-/* Navigation Bar */
-
+/*Navbar Section*/
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -59,41 +54,34 @@ p {
 .nav-item {
   padding: 0 18px;
 }
-
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  font-weight: 100
+  font-weight: 100;
 }
 
 /* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-
 #title {
   background-color: #ff4c68;
   color: #fff;
   text-align: left;
 }
-
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
 
 /* Title Image */
-
 .title-image {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
   right: 30%;
 }
-
-/* Features Section */
 
 #features {
   position: relative;
@@ -102,7 +90,6 @@ p {
 .feature-title {
   font-size: 1.5rem;
 }
-
 .feature-box {
   padding: 4.5%;
 }
@@ -111,13 +98,11 @@ p {
   color: #ef8172;
   margin-bottom: 1rem;
 }
-
 .icon:hover {
   color: #ff4c68;
 }
 
 /* Testimonial Section */
-
 #testimonials {
   background-color: #ef8172;
 }
@@ -126,13 +111,11 @@ p {
   font-size: 3rem;
   line-height: 1.5;
 }
-
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-
 
 #press {
   background-color: #ef8172;
@@ -144,39 +127,32 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
-
+/*Pricing Section */
 #pricing {
   padding: 100px;
 }
 
-.price-text {
+.pricing-text {
   font-size: 3rem;
   line-height: 1.5;
 }
-
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* CTA Section */
-
-
 /* Footer Section */
-
-
 .social-icon {
   margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
-
   .title-image {
     position: static;
     transform: rotate(0);
   }
 }
+
+/*# sourceMappingURL=main.css.map */

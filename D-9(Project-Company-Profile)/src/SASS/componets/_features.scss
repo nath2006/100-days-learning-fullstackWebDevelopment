@@ -1,0 +1,22 @@
+@use '../abstarct/color';
+
+#features {
+    position: relative;
+}
+
+.feature {
+    &-title {
+        font-size: 1.5rem;
+    }
+    &-box {
+        padding: 4.5%;
+    }
+}
+
+.icon {
+    color: color.$orange-color;
+    margin-bottom: 1rem;
+    &:hover {
+        color: color.$red-color;
+    }
+}
