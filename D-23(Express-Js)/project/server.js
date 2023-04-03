@@ -19,6 +19,7 @@ const port = 5000;
 
 //     res.send(`Selamat datang ${namaDepan + namaBelakang}`);
 // });
+
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "/bmiCalculator.html");
 });
@@ -26,7 +27,7 @@ app.get('/', (req, res) => {
 app.post('/', (req,res) => {
     const weight = parseFloat(req.body.weight);
     const height = parseFloat(req.body.height);
-    // [berat badan (kg) : (tinggi badan(m))kuadrat] 
+
     const heightPow = Math.pow(height, 2);
     const result = weight / heightPow * 720;
 
