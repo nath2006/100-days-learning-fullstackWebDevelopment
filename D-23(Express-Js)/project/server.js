@@ -29,12 +29,13 @@ app.post('/', (req,res) => {
     const height = parseFloat(req.body.height);
 
     const heightPow = Math.pow(height, 2);
-    const result = weight / heightPow * 720;
+    console.log(heightPow);
+    const result = weight / heightPow * 10000;
 
     res.send(`Your BMI is ${result}`);
 });
 
 
 app.listen(port, () => {
-    console.log(`Your server runing on localhost:${port}`);
+    console.log(`Your server running on localhost:${port}`);
 });
