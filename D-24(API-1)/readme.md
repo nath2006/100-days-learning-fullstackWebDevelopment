@@ -7,6 +7,7 @@
 > RESTful API is a designation for web services that implement the REST architecture.
 
 ## What is Endpoint, Path, Parameters and Authentication?
+> 
 
 ## HTTPS Methods
 > - GET     = for getting data
