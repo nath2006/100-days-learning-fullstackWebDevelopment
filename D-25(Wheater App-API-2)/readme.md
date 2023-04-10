@@ -2,9 +2,10 @@
 
 <p align="center">
 <img src="./preview/preview-1.png"/>
+</p>
+<p align="center">
 <img src="./preview/preview-2.png"/>
 </p>
-
 ## Technology used 
 - Open Wheater API
 - Express JS
