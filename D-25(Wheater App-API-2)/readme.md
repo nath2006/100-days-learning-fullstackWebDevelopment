@@ -6,6 +6,7 @@
 <p align="center">
 <img src="./preview/preview-2.png"/>
 </p>
+
 ## Technology used 
 - Open Wheater API
 - Express JS
