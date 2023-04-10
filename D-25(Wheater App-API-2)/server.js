@@ -13,9 +13,9 @@ app.use(express.static(__dirname + '/public'));
     
 app.post('/', (req, res) => {
     const query = req.body.cityName;;
-    const apiKey = '028932a5426a103813816f4013cf6ba5';
+    const apiKey = 'Your-API-Key';
     const units = 'metric';
-    const language = 'id';
+    const language = 'Your-Language';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=${units}&lang=${language}&appid=${apiKey}`;
     https.get(url, (response) => {
         console.log(response.StatusCode);
