@@ -2,9 +2,8 @@
 
 <p align="center">
 <img src="./preview/preview-1.png"/>
+<img src="./preview/preview-2.png"/>
 </p>
-
-![alt text](preview/preview-2.png)
 
 ## Technology used 
 - Open Wheater API
