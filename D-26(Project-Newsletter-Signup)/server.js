@@ -1,6 +1,8 @@
+const https = require("https");
 const express = require("express");
 const request = require("request");
 const bodyParser = require("body-parser");
+
 
 const port = 9000;
 const app = express();
@@ -9,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/signup.html")
+    res.sendFile(__dirname + "/singnup.html")
 });
 
 app.post("/", (req, res) => {
@@ -17,12 +19,52 @@ app.post("/", (req, res) => {
     let lastName = req.body.lastName;
     let email = req.body.email;
 
-    console.log(`Hellow ${firstname} dengan nama belakang ${lastName} dan email ${email}`);
+    const data = {
+        members : [
+            {
+                email_address: email,
+                status: "subscribed",
+                merge_fields: {
+                    FNAME: firstname,
+                    LNAME: lastName
+                }
+            }
+        ]
+    };
+    
+    const jsonData = JSON.stringify(data);
+
+    const url = "https://us9.api.mailchimp.com/3.0/lists/3fb49b20d2";
+    const option = {
+        method: "POST",
+        auth: "codeword63:d6f995bfdfef44c5fffd85e6d8b0ca29-us9"
+    };
+
+    const request = https.request(url, option, (response) => {
+        console.log(response.statusCode);
+        if(response.statusCode === 200){
+            res.sendFile(__dirname + "/succes.html")
+        }else{
+            res.sendFile(__dirname + "/failed.html")
+        }
+        response.on("data", (data) => {
+            console.log(JSON.parse(data));
+        });
+    });
+    request.write(jsonData);
+    request.end();
+});
+
+app.post("/failed", () => {
+    res.redirect("/");
+});
+
+
+app.post("/succes", () => {
+    res.redirect("/");
 });
 
 app.listen (port, () => {
     console.log(`localhost:${port}`);
 });
 
-//api
-//d6f995bfdfef44c5fffd85e6d8b0ca29-us9
