@@ -1,11 +1,11 @@
-# Dice Game website
-## This website is my project, to better master on DOM
+# On this session, i'm create Dice Game website using DOM
+
 
 ### Preview if player 1 wins
-![1-wins](1-win.png) 
+![1-wins](./preview/1-win.png) 
 
 ### Preview if player 2 wins
-![2-wins](2-win.png) 
+![2-wins](./preview/2-win.png) 
 
 ### Preview if player draw
-![Draw](draw.png) 
+![Draw](./preview/draw.png) 
