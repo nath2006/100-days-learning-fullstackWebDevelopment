@@ -1,4 +1,4 @@
-# On this session, i'm learn about Document Object Model (DOM))
+# On this session, i'm learn about Document Object Model (DOM) )
 
 ## Selecting HTML element with javascript
 > ### Finding HTML Element
