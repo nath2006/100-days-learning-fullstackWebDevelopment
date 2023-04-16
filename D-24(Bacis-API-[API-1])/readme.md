@@ -6,7 +6,24 @@
 ## What is Resful API?
 > RESTful API is a designation for web services that implement the REST architecture.
 
-## Structure of APi
+## What is Endpoint, Path, Parameters and Authentication on API?
+> ### Endpoint
+> >Endpoint is the end point (URL) in the API that is used by the client (client) to access the resources or services provided by the API. 
+>>
+> >Endpoints serve as entry points or gateways for communicating with the API. Example endpoints: https://api.example.com/users or https://api.example.com/products.
+> ### Path
+> >Path is the part of the URL that follows the domain in the endpoint. Paths are used to identify specific resources or services within the API
+>>
+> >Example paths: /users or /products. This path is usually defined by the API provider according to their API design.
+> ### Parameters
+> >Parameters are additional information that can be sent with an API request to set or modify API behavior.
+>>
+> >Parameters are usually located in a URL or in the body of the API request, and are used to pass data such as filters, sorting, paging, or other data required by the API. Example parameters: https://api.example.com/users?name=john&age=25.
+> ### Authentication
+> >Authentication is the process of verifying the identity of a user or application accessing the API.
+>>
+> >Authentication is used to maintain API security and ensure only authorized users can access resources or services in the API. There are various authentication methods that can be used in the API, such as token-based authentication, OAuth, API key, or Basic Authentication.
+## Structure of API
 > <img src="./img/structureapi.png"/>
 
 ## HTTPS Methods
