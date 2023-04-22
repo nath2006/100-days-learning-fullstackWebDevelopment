@@ -73,5 +73,15 @@
    </li>
 </ul>
 
-## What is gitignor?
->
+## What is Git ignore ".gitignor"?
+>.gitignore Its function is to set when we push, the file path listed in it will not be committed.
+<h3>Command in .gitignore</h3>
+<ul>
+   <li>
+   <h4>Comment</h4>
+
+   ```GIT
+   # this is a comment
+   ```
+   </li>
+</ul>
