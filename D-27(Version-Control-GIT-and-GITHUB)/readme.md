@@ -75,13 +75,34 @@
 
 ## What is Git ignore ".gitignor"?
 >.gitignore Its function is to set when we push, the file path listed in it will not be committed.
-<h3>Command in .gitignore</h3>
-<ul>
-   <li>
-   <h4>Comment</h4>
-
-   ```GIT
-   # this is a comment
-   ```
-   </li>
-</ul>
+<h3>Rules in .gitignore</h3>
+<div  style="width:100%;">
+   <table>
+      <thead>
+         <tr>
+            <th>
+               Pattern
+            </th>
+            <th>
+               Explanation/Matches
+            </th>
+            <th>
+               Examples
+            </th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <th>
+               Blank Line
+            </th>
+            <th>
+               Blank lines are ignored
+            </th>
+            <th>
+               -
+            </th>
+         </tr>
+      </tbody>
+   </table>
+</div>
