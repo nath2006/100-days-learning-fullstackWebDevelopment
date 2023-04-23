@@ -82,12 +82,49 @@
 ## What is Git ignore ".gitignor"?
 >.gitignore Its function is to set when we push, the file path listed in it will not be committed.
 <h3>Rules in .gitignore</h3>
-|     Pattern    |                                               Explantion/Matches                                               |                   Examples                  |
-|:--------------:|:--------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|
-| Blank line     | Blank lines are ignored                                                                                        |                                             |
-| # text comment | Line starting with # are ignored                                                                               | #this comment                               |
-| name           | All name files, name folders, and files and folders in any name folder                                         | /name.log /name/filex.txt /lib/name.log     |
-| name/          | Ending with / specifies the pattern is for a folder. Matches all files and folder in any name folder           | /name/file.txt /name/log/name.log/name.file |
-| name.file      | All file with the name.file                                                                                    | /name.file /lib/name.file                   |
-| /name.file     | Starting with / specifies the patterns matches only files the root folder                                      | /name.file                                  |
-| lib/name.file  | Pattrens specifiing files in specific folders are always realative to root (event if you do not start with / ) | /lib/name.file                              |
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Pattern</th>
+    <th class="tg-0pky">Explantion/Matches</th>
+    <th class="tg-0pky">Examples</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Blank line</td>
+    <td class="tg-0pky">Blank lines are ignored</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"># text comment</td>
+    <td class="tg-0pky">Line starting with # are ignored</td>
+    <td class="tg-0pky">#this comment</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">name</td>
+    <td class="tg-0pky">All name files, name folders, and files and folders in any name folder</td>
+    <td class="tg-0pky">/name.log<br>/name/filex.txt<br>/lib/name.log</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">name/</td>
+    <td class="tg-0pky">Ending with / specifies the pattern is for a folder. Matches all files and folder in any name folder</td>
+    <td class="tg-0pky">/name/file.txt<br>/name/log/name.log/name.file</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">name.file</td>
+    <td class="tg-0pky">All file with the name.file</td>
+    <td class="tg-0pky">/name.file<br>/lib/name.file</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">/name.file</td>
+    <td class="tg-0pky">Starting with / specifies the patterns matches only files the root folder</td>
+    <td class="tg-0pky">/name.file</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">lib/name.file</td>
+    <td class="tg-0pky">Pattrens specifiing files in specific folders are always realative to root (event if you do not start with / )</td>
+    <td class="tg-0pky">/lib/name.file</td>
+  </tr>
+</tbody>
+</table>
