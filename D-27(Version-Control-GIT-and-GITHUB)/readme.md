@@ -8,15 +8,21 @@
  <ul>
   <li> 
      <h4>Local version control systems</h4>
-     <img src="./img/local.png"/>
+     <div style="width: 350px">
+      <img src="./img/local.png"/>
+     </div>
   </li>
   <li> 
      <h4>Centralized version control systems</h4>
-     <img src="./img/centralized.png"/>
+     <div style="width: 350px">
+      <img src="./img/centralized.png"/>
+     </div>
   </li>
    <li> 
      <h4>Distributed version control systems</h4>
-     <img src="./img/distributed.png"/>
+      <div style = "width: 350px">  
+         <img src="./img/distributed.png"/>
+     </div>
    </li>
 </ul>
 
@@ -76,33 +82,12 @@
 ## What is Git ignore ".gitignor"?
 >.gitignore Its function is to set when we push, the file path listed in it will not be committed.
 <h3>Rules in .gitignore</h3>
-<div  style="width:100%;">
-   <table>
-      <thead>
-         <tr>
-            <th>
-               Pattern
-            </th>
-            <th>
-               Explanation/Matches
-            </th>
-            <th>
-               Examples
-            </th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <th>
-               Blank Line
-            </th>
-            <th>
-               Blank lines are ignored
-            </th>
-            <th>
-               -
-            </th>
-         </tr>
-      </tbody>
-   </table>
-</div>
+|     Pattern    |                                               Explantion/Matches                                               |                   Examples                  |
+|:--------------:|:--------------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|
+| Blank line     | Blank lines are ignored                                                                                        |                                             |
+| # text comment | Line starting with # are ignored                                                                               | #this comment                               |
+| name           | All name files, name folders, and files and folders in any name folder                                         | /name.log /name/filex.txt /lib/name.log     |
+| name/          | Ending with / specifies the pattern is for a folder. Matches all files and folder in any name folder           | /name/file.txt /name/log/name.log/name.file |
+| name.file      | All file with the name.file                                                                                    | /name.file /lib/name.file                   |
+| /name.file     | Starting with / specifies the patterns matches only files the root folder                                      | /name.file                                  |
+| lib/name.file  | Pattrens specifiing files in specific folders are always realative to root (event if you do not start with / ) | /lib/name.file                              |
