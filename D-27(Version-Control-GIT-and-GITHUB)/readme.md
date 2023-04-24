@@ -81,50 +81,84 @@
 
 ## What is Git ignore ".gitignor"?
 >.gitignore Its function is to set when we push, the file path listed in it will not be committed.
-<h3>Rules in .gitignore</h3>
-<table class="tg">
+### Bacis Rules in .gitignore
+> > [For details rules](https://www.w3schools.com/git/git_ignore.asp?remote=github)
+<table>
 <thead>
   <tr>
-    <th class="tg-0pky">Pattern</th>
-    <th class="tg-0pky">Explantion/Matches</th>
-    <th class="tg-0pky">Examples</th>
+    <th>Pattern</th>
+    <th>Explantion/Matches</th>
+    <th>Examples</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Blank line</td>
-    <td class="tg-0pky">Blank lines are ignored</td>
-    <td class="tg-0pky"></td>
+    <td>Blank line</td>
+    <td>Blank lines are ignored</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-0pky"># text comment</td>
-    <td class="tg-0pky">Line starting with # are ignored</td>
-    <td class="tg-0pky">#this comment</td>
+    <td># text comment</td>
+    <td>Line starting with # are ignored</td>
+    <td>#this comment</td>
   </tr>
   <tr>
-    <td class="tg-0pky">name</td>
-    <td class="tg-0pky">All name files, name folders, and files and folders in any name folder</td>
-    <td class="tg-0pky">/name.log<br>/name/filex.txt<br>/lib/name.log</td>
+    <td>name</td>
+    <td>All name files, name folders, and files and folders in any name folder</td>
+    <td>/name.log<br>/name/filex.txt<br>/lib/name.log</td>
   </tr>
   <tr>
-    <td class="tg-0pky">name/</td>
-    <td class="tg-0pky">Ending with / specifies the pattern is for a folder. Matches all files and folder in any name folder</td>
-    <td class="tg-0pky">/name/file.txt<br>/name/log/name.log/name.file</td>
+    <td>name/</td>
+    <td>Ending with / specifies the pattern is for a folder. Matches all files and folder in any name folder</td>
+    <td>/name/file.txt<br>/name/log/name.log/name.file</td>
   </tr>
   <tr>
-    <td class="tg-0pky">name.file</td>
-    <td class="tg-0pky">All file with the name.file</td>
-    <td class="tg-0pky">/name.file<br>/lib/name.file</td>
+    <td>name.file</td>
+    <td>All file with the name.file</td>
+    <td>/name.file<br>/lib/name.file</td>
   </tr>
   <tr>
-    <td class="tg-0pky">/name.file</td>
-    <td class="tg-0pky">Starting with / specifies the patterns matches only files the root folder</td>
-    <td class="tg-0pky">/name.file</td>
+    <td>/name.file</td>
+    <td>Starting with / specifies the patterns matches only files the root folder</td>
+    <td>/name.file</td>
   </tr>
   <tr>
-    <td class="tg-0pky">lib/name.file</td>
-    <td class="tg-0pky">Pattrens specifiing files in specific folders are always realative to root (event if you do not start with / )</td>
-    <td class="tg-0pky">/lib/name.file</td>
+    <td>lib/name.file</td>
+    <td>Pattrens specifiing files in specific folders are always realative to root (event if you do not start with / )</td>
+    <td>/lib/name.file</td>
   </tr>
 </tbody>
 </table>
+
+## Branching dan Merging branch
+### Branching
+> Literally, the meaning of 'branch' is a branch. But in Git, the meaning of a branch is an environment that can be used to experiment on the project without disturbing the main environment of the project.
+### Mergeing
+> Mrging is an action to merge one 'branch' with another 'branch'...
+<ul>
+  <li>
+   <h4>Create new branch</h4>
+    <p>Make sure Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
+    </p>
+
+   ```GIT
+   //Juts create new branch
+   git barnch [your branch name]
+
+   //Create and moving to new branch
+   git branch -b [your branch name]
+   ```
+  </li>
+ 
+  <li>
+     <h4>check which branch you are in now</h4>
+
+   ```GIT
+   git branch
+   ```
+  </li>
+
+  <li>
+    <h4></h4>
+  </li>
+</ul>
