@@ -134,7 +134,7 @@
 ### Branching
 > Literally, the meaning of 'branch' is a branch. But in Git, the meaning of a branch is an environment that can be used to experiment on the project without disturbing the main environment of the project.
 ### Mergeing
-> Mrging is an action to merge one 'branch' with another 'branch'...
+> Merging is an action to merge one 'branch' with another 'branch'...
 <ul>
   <li>
    <h4>Create new branch</h4>
