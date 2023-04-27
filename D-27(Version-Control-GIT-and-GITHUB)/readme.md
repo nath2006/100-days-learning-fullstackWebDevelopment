@@ -136,9 +136,9 @@
 ### Mergeing
 > Merging is an action to merge one 'branch' with another 'branch'
 ### Merge and Branch Command
-> [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+> [For details documentation branching](https://www.atlassian.com/git/tutorials/using-branches)
 >
-> [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches)
+> [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 <ul>
   <h3></h3
    <h4>Create new branch</h4>
