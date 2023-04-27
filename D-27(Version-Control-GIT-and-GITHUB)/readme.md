@@ -82,7 +82,7 @@
 ## What is Git ignore ".gitignor"?
 >.gitignore Its function is to set when we push, the file path listed in it will not be committed.
 ### Bacis Rules in .gitignore
-> > [For details rules](https://www.w3schools.com/git/git_ignore.asp?remote=github)
+> [For details rules](https://www.w3schools.com/git/git_ignore.asp?remote=github)
 <table>
 <thead>
   <tr>
@@ -136,6 +136,7 @@
 ### Mergeing
 > Merging is an action to merge one 'branch' with another 'branch'...
 <ul>
+  <h3>Merge and Branch Command</h3>
   <li>
    <h4>Create new branch</h4>
     <p>Make sure Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
@@ -159,6 +160,10 @@
   </li>
 
   <li>
-    <h4></h4>
+    <h4>Checkout to another branch</h4>
+
+   ```GIT
+   git checkout [your-branch]
+   ```
   </li>
 </ul>
