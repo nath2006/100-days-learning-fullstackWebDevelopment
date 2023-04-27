@@ -8,19 +8,19 @@
  <ul>
   <li> 
      <h4>Local version control systems</h4>
-     <div style="width: 350px">
+     <div style="width: 300px">
       <img src="./img/local.png"/>
      </div>
   </li>
   <li> 
      <h4>Centralized version control systems</h4>
-     <div style="width: 350px">
+     <div style="width: 300px">
       <img src="./img/centralized.png"/>
      </div>
   </li>
    <li> 
      <h4>Distributed version control systems</h4>
-      <div style = "width: 350px">  
+      <div style = "width: 300px">  
          <img src="./img/distributed.png"/>
      </div>
    </li>
@@ -134,10 +134,13 @@
 ### Branching
 > Literally, the meaning of 'branch' is a branch. But in Git, the meaning of a branch is an environment that can be used to experiment on the project without disturbing the main environment of the project.
 ### Mergeing
-> Merging is an action to merge one 'branch' with another 'branch'...
+> Merging is an action to merge one 'branch' with another 'branch'
+### Merge and Branch Command
+> [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+>
+> [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches)
 <ul>
-  <h3>Merge and Branch Command</h3>
-  <li>
+  <h3></h3
    <h4>Create new branch</h4>
     <p>Make sure Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
     </p>
@@ -164,6 +167,15 @@
 
    ```GIT
    git checkout [your-branch]
+   ```
+  </li>
+
+  <li>
+    <h4>Merge branch</h4>
+    <p>Make sure you are already on the main branch that you want to merge with the new branch</p>
+
+   ```GIT
+   git merge [branch]
    ```
   </li>
 </ul>
