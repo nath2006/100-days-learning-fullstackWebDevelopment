@@ -140,7 +140,6 @@
 >
 > [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 <ul>
-  <h3></h3
    <h4>Create new branch</h4>
     <p>Make sure Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
     </p>
