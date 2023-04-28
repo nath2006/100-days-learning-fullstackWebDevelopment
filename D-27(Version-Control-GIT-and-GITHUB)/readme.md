@@ -140,6 +140,7 @@
 >
 > [For details documentation merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 <ul>
+  <li>
    <h4>Create new branch</h4>
     <p>Make sure Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.
     </p>
@@ -178,3 +179,5 @@
    ```
   </li>
 </ul>
+
+## Forking and Pull Request
