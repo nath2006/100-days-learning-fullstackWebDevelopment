@@ -8,21 +8,15 @@
  <ul>
   <li> 
      <h4>Local version control systems</h4>
-     <div style="width: 300px">
-      <img src="./img/local.png"/>
-     </div>
+      <img src="./img/local.png" width="300px">
   </li>
   <li> 
      <h4>Centralized version control systems</h4>
-     <div style="width: 300px">
-      <img src="./img/centralized.png"/>
-     </div>
+      <img src="./img/centralized.png" width="300px">
   </li>
    <li> 
      <h4>Distributed version control systems</h4>
-      <div style = "width: 300px">  
-         <img src="./img/distributed.png"/>
-     </div>
+         <img src="./img/distributed.png" width="300px">
    </li>
 </ul>
 
@@ -181,3 +175,15 @@
 </ul>
 
 ## Forking and Pull Request
+
+### What is fork?
+> We can interpret Frok as copying a repository from another person's or organization's account to our own account.
+
+### Whay is pull request ?
+> Pull Request is a term that we can interpret as a request to merge code.
+
+### How to contribute on open source project?
+>1. Read contribute rules
+>2. Fork & Clone Repository
+>3. Make Modifications
+>4. Make Pull Requests
