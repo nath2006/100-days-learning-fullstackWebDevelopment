@@ -1,8 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const app = express();
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, '/views')); 
 
 const port = 5000;
 
@@ -18,8 +20,9 @@ app.get("/",(req, res) => {
         day = "Kerja";
     }
 
-    res.render("list", {currentDay : day} );
-    
+    res.render("list.ejs", 
+        {currentDay : day} 
+    );
 });
 
 app.listen(port, () => {
