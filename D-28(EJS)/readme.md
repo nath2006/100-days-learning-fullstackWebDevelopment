@@ -5,3 +5,5 @@
 
 ## Why we using EJS?
 > Because EJS offers an easier way to interpolate (concatenate) strings effectively.
+
+## How to use EJS?
