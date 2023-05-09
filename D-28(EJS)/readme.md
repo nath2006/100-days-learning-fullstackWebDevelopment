@@ -7,3 +7,7 @@
 > Because EJS offers an easier way to interpolate (concatenate) strings effectively.
 
 ## How to use EJS?
+> ### [Documentation EJS ](https://ejs.co/)
+>
+> EJS can be used on both the server side and the client side.
+
