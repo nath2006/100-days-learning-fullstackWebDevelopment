@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views')); 
 
 const port = 5000;
-let items = [];
+
 
 app.get("/",(req, res) => {
     
@@ -20,21 +20,14 @@ app.get("/",(req, res) => {
         day : 'numeric',
         month : 'long'
     };
-    
-    const day= today.toLocaleDateString("en-US", options)
-
-    
-    res.render("list.ejs", {currentDay : day, newListItems : items} );
-
-    for(let i =0; i<items.length; i++) {
-    
-        console.log(items)
-    }
- 
+    const day = today.toLocaleDateString("en-US", options)
+    res.render("list", {currentDay : day, newListItems : items});
 });
 
+let items = [];
+
 app.post("/", (req,res) => {
-    let item = req.body.newItems;
+    const item = req.body.newItems;
     items.push(item);
 
     res.redirect('/');
