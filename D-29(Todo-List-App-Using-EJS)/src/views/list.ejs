@@ -11,8 +11,9 @@
 
     <ul>
 
-        <% for (var i=0; i<newListItem.legth; i++) { %>
-             <li>  <%=newListItem[i]%> </li>
+        <% for (let i= 0; i<newListItem.legth; i++) { %>
+             <li>  <%= newListItem[i] %> </li>
+            <%console.log(newListItems[i])%>
         <% } %>
         
     </ul>
