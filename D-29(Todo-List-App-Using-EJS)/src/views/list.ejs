@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn EJS | Todolist App</title>
+    <meta name="viewport" content="width=device-width, initial- 
+  scale=1.0">
+    <title>Lern EJS | To-Do List App</title>
 </head>
 <body>
-    <h1><%= currentDay %> </h1>
-
+    <h1><%= kindOfDay %> </h1>
     <ul>
-        <li>Make pudding</li>
-        <% for (let i= 0; i<newListItems.legth; i++) { %>
-             <li>  <%= newListItems[i] %> </li>
-            <%console.log(newListItems[i])%>
+        <li>Buy Food</li>
+        <li>Watch Movies</li>
+        <% for(var i=0;i<tasks.length;i++){ %> 
+            <li><%= tasks[i] %> </li>
         <% } %>
-        
     </ul>
-    <form action="/" method="post">
-        <input type="text" name="newItems" id="newItems">
-        <button type="submit" name="button">Add</button>
+    <form action="/" method="POST">
+        <label for="newItem">Add New Task</label>
+        <input type="text" name="newItem" id="newItem">
+        <button type="submit">Add</button>
     </form>
 </body>
 </html>

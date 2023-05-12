@@ -1,38 +1,37 @@
+/* eslint-disable no-undef */
 const express = require('express');
 const bodyParser = require('body-parser');
+// eslint-disable-next-line no-unused-vars
 const path = require('path');
 
 const app = express();
 
-app.use(bodyParser.urlencoded({extended: true}));
-
-app.set('view engine', 'ejs');
+app.set('view engine','ejs');
 app.set('views', path.join(__dirname, '/views')); 
+app.use(bodyParser.urlencoded({extended:true}));
 
+let tasks = [];
 const port = 5000;
 
-
-app.get("/",(req, res) => {
-    
-    let today = new Date();
-    const options = {
-        weekday : 'long',
-        day : 'numeric',
-        month : 'long'
-    };
-    const day = today.toLocaleDateString("en-US", options)
-    res.render("list", {currentDay : day, newListItems : items});
+app.get('/',(req,res) => {
+	const today = new Date();
+	let options = {
+		weekday: 'long',
+		year:'numeric',
+		day: 'numeric',
+		month:'long'
+	};
+	const day = today.toLocaleDateString('en-US',options);
+	res.render('list.ejs',{kindOfDay:day,tasks:tasks});
 });
 
-let items = [];
 
-app.post("/", (req,res) => {
-    const item = req.body.newItems;
-    items.push(item);
+app.post('/',(req,res) => {
+	const task = req.body.newItem;
+	tasks.push(task);
+	res.redirect('/');
+});
 
-    res.redirect('/');
-})
-
-app.listen(port, () => {
-    console.log(`localhost:${port}`);
+app.listen(port,() => {
+	console.log(`Server running on ${port}`);
 });
