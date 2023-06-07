@@ -21,11 +21,17 @@ app.get("/", (req,res)=>{
 	res.render('home.ejs',{homeStartingContent:homeStartingContent});
 })
 
+app.get("/about",(req,res) =>{
+  res.render('about.ejs',{aboutContent:aboutContent})
+})
 
+app.get("/contact",(req,res) =>{
+  res.render('contact.ejs',{contactContent:contactContent})
+})
 
-
-
-
+app.get("/compose",(req,res) =>{
+  res.render('compose.ejs')
+})
 
 
 
