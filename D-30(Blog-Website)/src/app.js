@@ -33,7 +33,7 @@ app.get('/compose',(req,res) =>{
   res.render('compose.ejs')
 })
 
-
+//post data to global var
 app.post('/',(req,res) => {
   const datePublish = req.body.datePublish;
 
