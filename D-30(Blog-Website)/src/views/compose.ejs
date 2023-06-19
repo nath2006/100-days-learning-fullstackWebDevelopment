@@ -2,10 +2,21 @@
 
 <h3>Compose</h3>
 
-<form action="/" method="POST">
+<!-- <form action="/" method="POST">
     <input type="text" name="datePublish" id="datePublish">
     <button type="submit" name="buttonPublish">Publish</button>
+</form> -->
+<form action="/" method="POST">
+    <div class="mb-3">
+        <h4>Title</h4>
+        <input type="text" class="form-control" name="datePublish" id="datePublish">
+    </div>
+    <div class="mb-3">
+        <h4>Post</h4>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary" name="buttonPublish">Publish</button>
+    </div>
 </form>
-
-
 <%- include('partials/footer'); -%>
