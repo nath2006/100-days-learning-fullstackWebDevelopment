@@ -1,3 +1,3 @@
 # On this session D-31, Im learn Databaes concept
 
-## Data base is a
+## Database is a place where data is stored
